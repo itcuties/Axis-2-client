@@ -27,6 +27,8 @@ public class HighScoreServiceTest {
 
 	@Test
 	public void testGetHighScores() {
+		
+		system.out.print("Testing ....");
 
 		HighScoreServiceStub stub = null;
 		try {
