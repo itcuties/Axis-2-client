@@ -28,6 +28,8 @@ public class HighScoreServiceTest {
 	@Test
 	public void testGetHighScores() {
 
+		System.out.println("testing ....");
+
 		HighScoreServiceStub stub = null;
 		try {
 			stub = new HighScoreServiceStub();
